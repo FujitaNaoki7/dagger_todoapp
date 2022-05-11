@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - master
+      
+env:
+  # This needs to be unique across all of netlify.app
+  APP_NAME: dagger_todoapp
+  NETLIFY_TEAM: FujitaNaoki7
 
 jobs:
   test:
